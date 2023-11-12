@@ -1,7 +1,7 @@
 
-# g
+# read me file generator
 
-![License](https://img.shields.io/badge/License-Apache_License_2.0-lightblue.svg)
+![License](https://img.shields.io/badge/License-MIT_License-lightblue.svg)
 
 ## Table of Contents
 
@@ -15,30 +15,30 @@
 
 ## Description
 
-g
+generate a file
 
 ## Installation
 
-g
+inquirer
 
 ## Usage 
 
-g
+generate a file
 
 ## License
 
-This application is covered under: Apache License 2.0   
+This application is covered under: MIT License   
   
 ## Contributing
 
-g    
+N/A    
   
 ## Tests 
 
-g
+yes
 
 ## Questions
 
-Feel free to contact me at g if you have any questions.
-My GitHub profile is [g](g)
+Feel free to contact me at google@gmaol.com if you have any questions.
+My GitHub profile is [boo](google.com)
   

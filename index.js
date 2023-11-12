@@ -9,20 +9,19 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the name of your project?',
+        message: 'What is the title of your project?',
         validate: validateMessage
-    
     }, 
     {
         type: 'input',
         name: 'description',
-        message: 'Please describe the essence of your project', 
+        message: 'Please enter a description of your project:', 
         validate: validateMessage
     }, 
     {
         type: 'input',
         name: 'installations',
-        message: 'Are there any installations required to make your project functional on the client end?', 
+        message: 'What are the installation instructions?', 
         validate: validateMessage
     }, 
     {
@@ -51,13 +50,13 @@ const questions = [
     }, 
     {
         type: 'input',
-        name: 'contributors',
-        message: 'Name contributors if there were any besides yourself', 
+        name: 'contributing',
+        message: 'What are the contributions guidelines?', 
     }, 
     {
         type: 'input',
         name: 'tests',
-        message: 'Were any tests performed to asses functionality of your project?',
+        message: 'What are the test instructions?',
         validate: validateMessage
     }, 
     {

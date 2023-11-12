@@ -39,7 +39,7 @@ This application is covered under: ${data.license}
   
 ## Contributing
 
-${data.contributors}    
+${data.contributing}    
   
 ## Tests 
 
@@ -47,8 +47,8 @@ ${data.tests}
 
 ## Questions
 
-Feel free to contact me at ${data.email} if you have any questions.
 My GitHub profile is [${data.githubUsername}](${data.profileLink})
+Feel free to contact me at ${data.email} if you have any questions.
   `
 }
 
