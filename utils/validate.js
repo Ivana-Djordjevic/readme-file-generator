@@ -12,3 +12,5 @@ const validateChoice = (answer) => {
     }
     return true;
 }
+
+module.exports = { validateMessage, validateChoice};
