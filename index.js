@@ -77,7 +77,6 @@ const questions = [
         message: 'What is your github profile link?',
         validate: validateMessage
     },
-
 ]
 
 // TODO: Create a function to initialize app: (async await version)
@@ -85,9 +84,11 @@ async function init() {
 
     const answers = await inquirer.prompt(questions);
     const readMeContent = generateMarkdown(answers);
+    const currentDate = new Date().toISOString();
+    const projectTitle = answers.title.split(' ').join('-')
 
-    fs.writeFile('READMEuser.md', readMeContent, (err) => 
-        err ? console.log(err) : console.log('success')
+    fs.writeFile(`${currentDate}-${projectTitle}.md`, readMeContent, (err) => 
+        err ? console.log(err) : console.log('file successfully created')
     );
 }
 
