@@ -6,4 +6,4 @@ const validateMessage = (answer) => {
     return true;
 };
 
-module.exports = { validateMessage };
+module.exports =  validateMessage;

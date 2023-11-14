@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs'); 
 const generateMarkdown = require('./utils/generateMarkdown');
-const { validateMessage } = require('./utils/validate');
+const validateMessage = require('./utils/validate');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -77,7 +77,7 @@ const questions = [
         message: 'What is your github profile link?',
         validate: validateMessage
     },
-]
+];
 
 // TODO: Create a function to initialize app: (async await version)
 async function init() {
@@ -85,12 +85,12 @@ async function init() {
     const answers = await inquirer.prompt(questions);
     const readMeContent = generateMarkdown(answers);
     const currentDate = new Date().toISOString();
-    const projectTitle = answers.title.split(' ').join('-')
+    const projectTitle = answers.title.split(' ').join('-');
 
     fs.writeFile(`${currentDate}-${projectTitle}.md`, readMeContent, (err) => 
         err ? console.log(err) : console.log('file successfully created')
     );
-}
+};
 
 // Function call to initialize app
 init();
