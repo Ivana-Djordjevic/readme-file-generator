@@ -5,12 +5,5 @@ const validateMessage = (answer) => {
     }
     return true;
 };
-// to validate user's choice
-const validateChoice = (answer) => {
-    if (answer.length === 0) {
-        return 'Please select at least one license';
-    }
-    return true;
-}
 
-module.exports = { validateMessage, validateChoice};
+module.exports = { validateMessage };

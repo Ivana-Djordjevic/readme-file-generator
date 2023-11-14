@@ -1,7 +1,7 @@
 
-# read me file generator
+# Boo
 
-![License](https://img.shields.io/badge/License-MIT_License-lightblue.svg)
+![License](https://img.shields.io/badge/License-Creative_Commons_Zero_v1.0_Universal-lightblue.svg)
 
 ## Table of Contents
 
@@ -15,30 +15,30 @@
 
 ## Description
 
-generate a file
+Ghost
 
 ## Installation
 
-inquirer
+N/A
 
 ## Usage 
 
-generate a file
+spooky things
 
 ## License
 
-This application is covered under: MIT License   
+This application is covered under: Creative Commons Zero v1.0 Universal   
   
 ## Contributing
 
-N/A    
+contribute at your own peril    
   
 ## Tests 
 
-yes
+ouija board
 
 ## Questions
 
-Feel free to contact me at google@gmaol.com if you have any questions.
-My GitHub profile is [boo](google.com)
+My GitHub profile is [abyss](google.com)
+Feel free to contact me at spooky@ghost.com if you have any questions.
   
