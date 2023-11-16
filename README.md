@@ -16,7 +16,11 @@
 
 You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
-demo: [please click on this link to see the demo](https://drive.google.com/file/d/1rBqb4oyi1Hf0Cwxi0lytmp9J4O49LeiZ/view)
+demo:
+
+[README-file-generator.webm](https://github.com/Ivana-Djordjevic/readme-file-generator/assets/127266659/d5364534-fa35-479f-a54c-ca45ec66eea7)
+
+[Demo also available on this link](https://drive.google.com/file/d/1rBqb4oyi1Hf0Cwxi0lytmp9J4O49LeiZ/view)
 
 ## User Story*
 
